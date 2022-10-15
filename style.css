@@ -65,7 +65,7 @@ body{
 }
 .line {
   margin-top: 1rem;
-  width: 5vw;
+  width: 8vw;
   height: 1vh;
   background-color: #1a2639;
 }
@@ -156,7 +156,7 @@ button .fa {
  
    .line {
      margin-top: 0.5rem;
-     width: 10vw;
+     width: 7vw;
      height: 1vh;
      background-color: #1a2639;
 
