@@ -41,7 +41,7 @@ body{
 }
 
 .landing-profile--image img {
-  border-radius: 1rem;
+  border-radius: 2rem 0 0 2rem;
   height: 75vh;
   object-fit: cover;
 }
@@ -59,7 +59,7 @@ body{
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
-  color: rgb(67, 67, 162);
+  color: #0d1117;
   font-weight: 700;
   margin-top: 2.5rem;
 }
@@ -67,7 +67,7 @@ body{
   margin-top: 1rem;
   width: 5vw;
   height: 1vh;
-  background-color: rgba(93, 88, 121, 0.654);
+  background-color: #1a2639;
 }
 .landing-profile__header {
   text-align: center;
@@ -81,6 +81,7 @@ body{
   margin-top: 1rem;
   margin-bottom: 1.5rem;
   line-height: 1.5;
+  font-size: 1.2rem;
   color: #0d11179d;
 }
 
@@ -88,7 +89,7 @@ button {
   padding: 1rem 2rem;
   border: none;
   border-radius: 0.3rem;
-  background-color: rgb(67, 67, 162);
+  background-color: #0d1117;
   color: white;
   font-size: 1.1rem;
   margin-top: 1rem;
@@ -96,7 +97,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background-color: rgba(2, 2, 121, 0.903);
+  background-color: #1a2639;
   transition: 0.4s ease-in-out all;
 }
 
@@ -109,7 +110,7 @@ button .fa {
   display: flex;
   gap: 1rem;
   font-size: 1.5rem;
-  color: rgb(67, 67, 162);
+  color: #0d1117;
   justify-content: center;
   margin-top: 1.8rem;
   margin-bottom: 1rem;
@@ -117,8 +118,8 @@ button .fa {
 }
 
 .social__icons:hover {
-  color: rgba(2, 2, 121, 0.903);
-  transition: 0.4s ease-in-out all;
+  color: #1a2639;
+  transition: 0.5s ease-in-out all;
 }
 
 .social:hover {
@@ -132,7 +133,37 @@ button .fa {
   border: 1px solid grey;
 }
 
-@media (max-width: 1102px) {
+@media (max-width: 620px) {
+
+  .landing-profile--text {
+    padding: 0 1.2rem;
+  }
+  .landing-profile--image {
+    height: 60vh;
+  }
+
+  .landing-profile--image img {
+    height: 50vh;
+    border-radius: 2rem 2rem 0 0;
+  }
+
+  .landing-profile__greetings {
+
+    margin-top: -1rem;
+ 
+   }
+ 
+   .line {
+     margin-top: 0.5rem;
+     width: 10vw;
+     height: 1vh;
+     background-color: #1a2639;
+
+  
+}
+
+
+@media (max-width: 1203px) {
 .container{
     height: 100vh;
     padding: 5rem;
@@ -142,16 +173,18 @@ button .fa {
     display: flex;
     flex-direction: column;
     padding: 0rem;
+    width: 80vw;
+
   }
 
   .landing-profile--image {
     height: 60vh;
-    padding: 0 0rem;
+    padding: 0 0;
   }
 
   .landing-profile--image img {
     height: 50vh;
-    width: 70vw;
+    width: 80vw;
     border-radius: 1rem 1rem 0 0;
   }
 
@@ -161,12 +194,6 @@ button .fa {
     margin-top: 1rem;
     color: #0d1117;
     
-  }
-
-  .landing-profile__greetings {
-
-   margin-top: -4rem;
-
   }
 
   .line {
@@ -188,7 +215,7 @@ button .fa {
     padding: 1rem 2rem;
     border: none;
     border-radius: 0.3rem;
-    background-color: rgb(67, 67, 162);
+    background-color: #0d1117;
     color: white;
     font-size: 1rem;
     margin-top: 0.5rem;
@@ -199,11 +226,12 @@ button .fa {
     display: flex;
     gap: 1rem;
     font-size: 1.2rem;
-    color: rgb(67, 67, 162);
+    color: #0d1117;
     margin-top: 0.5rem;
     margin-bottom: 2.5rem;
     cursor: pointer;
   }
 
 
+}
 }
