@@ -159,7 +159,12 @@ button .fa {
      height: 1vh;
      background-color: #1a2639;
 
-  
+}
+.social__icons{
+  gap: 2rem;
+
+}
+
 }
 
 
@@ -224,7 +229,7 @@ button .fa {
 
   .social__icons {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     font-size: 1.2rem;
     color: #0d1117;
     margin-top: 0.5rem;
@@ -233,5 +238,5 @@ button .fa {
   }
 
 
-}
+
 }
