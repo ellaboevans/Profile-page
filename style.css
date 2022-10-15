@@ -8,40 +8,40 @@
 
 body{
   background-color: #0d1117;
+  display: flex;
+  align-items: center;
+
 
 }
 
 .container {
-  width: 100vw;
   height: 100vh;
-  padding: 5rem 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .landing-profile {
   display: flex;
   width: 70vw;
-  margin: 0 auto;
   padding: 0 2rem 0 0;
   align-items: center;
   justify-content: center;
   background-color: rgba(255, 255, 255);
   border-radius: 2rem;
 
-  /*   outline: 2px solid black; */
 }
 
 .landing-profile--image {
-  /* margin: 0 1rem; */
-  /* padding: 0 2rem; */
   display: flex;
   align-items: flex-start;
 }
 
 .landing-profile--image img {
   border-radius: 1rem;
-  /* padding: 1rem; */
   height: 75vh;
-  /* width: 20vw; */
   object-fit: cover;
 }
 
@@ -51,10 +51,9 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* outline: 2px solid red; */
 }
 
-.landing-profile__greetinngs {
+.landing-profile__greetings {
   text-align: center;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.2rem;
@@ -106,7 +105,6 @@ button .fa {
 
 .social__icons {
   margin-left: 1rem;
-  /*   width: 12vw; */
   display: flex;
   gap: 1rem;
   font-size: 1.5rem;
@@ -133,9 +131,10 @@ button .fa {
   border: 1px solid grey;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1102px) {
 .container{
     height: 100vh;
+    padding: 5rem;
 }
 
   .landing-profile {
@@ -145,7 +144,7 @@ button .fa {
   }
 
   .landing-profile--image {
-    /* margin: 0 1rem; */
+    height: 60vh;
     padding: 0 0rem;
   }
 
@@ -157,11 +156,18 @@ button .fa {
 
   .landing-profile__header {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 1rem;
     color: #0d1117;
     
   }
+
+  .landing-profile__greetings {
+
+   margin-top: -4rem;
+
+  }
+
   .line {
     margin-top: 0.5rem;
     width: 10vw;
@@ -184,7 +190,7 @@ button .fa {
     background-color: rgb(67, 67, 162);
     color: white;
     font-size: 1rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     cursor: pointer;
   }  
 
@@ -193,7 +199,10 @@ button .fa {
     gap: 1rem;
     font-size: 1.2rem;
     color: rgb(67, 67, 162);
-    margin-top: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2.5rem;
     cursor: pointer;
   }
+
+  
 }
