@@ -106,9 +106,9 @@ button .fa {
 }
 
 .social__icons {
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   display: flex;
-  gap: 1rem;
+  /* gap: 1rem; */
   font-size: 1.5rem;
   color: #0d1117;
   justify-content: center;
@@ -128,6 +128,7 @@ button .fa {
   border: 1px solid rgba(41, 41, 41, 0.896);
 }
 .social {
+  margin: 0.5rem;
   border-radius: 2rem;
   padding: 0.5rem 0.5rem;
   border: 1px solid grey;
@@ -161,7 +162,7 @@ button .fa {
 
 }
 .social__icons{
-  gap: 2rem;
+  /* gap: 2rem; */
 
 }
 
@@ -229,7 +230,7 @@ button .fa {
 
   .social__icons {
     display: flex;
-    gap: 2rem;
+    /* gap: 2rem; */
     font-size: 1.2rem;
     color: #0d1117;
     margin-top: 0.5rem;
