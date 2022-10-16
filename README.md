@@ -15,7 +15,11 @@
 
  * HTML
  * CSS
+ * JavaScript
 
+ ### Links
+
+- Live Site URL: [Evans' Profile Page](https://elaboprofile.netlify.app)
 
 ### Resources Used
 
