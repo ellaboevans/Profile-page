@@ -22,7 +22,6 @@ body{
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  flex-direction: column;
 
 }
 
@@ -114,7 +113,7 @@ button .fa {
   color: #0d1117;
   justify-content: center;
   margin-top: 1.8rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   cursor: pointer;
   text-decoration: none;
 }
@@ -136,10 +135,7 @@ button .fa {
   border: 1px solid grey;
 }
 
-.attribution{
-  margin: 1rem;
-  color: white
-}
+
 
 
 
